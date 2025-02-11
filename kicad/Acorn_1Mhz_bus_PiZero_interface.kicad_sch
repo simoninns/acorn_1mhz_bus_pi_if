@@ -806,6 +806,120 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint_Flag"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 3.429 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Flag"
+				(at 3.302 4.191 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative flag-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Flag_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.889 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.889 2.794)
+					(end 5.842 0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Flag_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -936,232 +1050,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_01x05"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4243,7 +4131,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 142.24) (xy 200.66 142.24)
+			(xy 171.45 149.86) (xy 175.26 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4863,7 +4751,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 144.78) (xy 198.12 147.32)
+			(xy 172.72 152.4) (xy 172.72 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5023,7 +4911,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 137.16) (xy 200.66 137.16)
+			(xy 171.45 144.78) (xy 175.26 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5523,7 +5411,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 139.7) (xy 200.66 139.7)
+			(xy 171.45 147.32) (xy 175.26 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5823,7 +5711,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 134.62) (xy 200.66 134.62)
+			(xy 171.45 142.24) (xy 175.26 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5933,7 +5821,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 144.78) (xy 198.12 144.78)
+			(xy 175.26 152.4) (xy 172.72 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6761,6 +6649,16 @@
 			(justify left)
 		)
 		(uuid "8853d6c2-2851-4522-a73b-4ecdc84b7f0c")
+	)
+	(text "Testpoints expose signals required\nonly for development purposes."
+		(exclude_from_sim no)
+		(at 175.006 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce1b0e5a-5910-4aa6-938d-770919f6a5af")
 	)
 	(global_label "GPIO_27"
 		(shape output)
@@ -7820,7 +7718,7 @@
 	)
 	(global_label "ID_SD"
 		(shape output)
-		(at 196.85 142.24 180)
+		(at 171.45 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7830,7 +7728,7 @@
 		)
 		(uuid "6d12570b-dc21-448f-931a-d4cf290877e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.5429 142.24 0)
+			(at 163.1429 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +8290,7 @@
 	)
 	(global_label "RxD"
 		(shape output)
-		(at 196.85 137.16 180)
+		(at 171.45 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8402,7 +8300,7 @@
 		)
 		(uuid "bc3fa44a-ac7d-42dd-9e90-9716f3656359")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.2967 137.16 0)
+			(at 164.8967 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8532,7 @@
 	)
 	(global_label "ID_SC"
 		(shape output)
-		(at 196.85 139.7 180)
+		(at 171.45 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8644,7 +8542,7 @@
 		)
 		(uuid "d570a13d-e9a4-46f6-8087-152dc981433f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.5429 139.7 0)
+			(at 163.1429 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +8818,7 @@
 	)
 	(global_label "TxD"
 		(shape output)
-		(at 196.85 134.62 180)
+		(at 171.45 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8930,7 +8828,7 @@
 		)
 		(uuid "eb761f09-878e-46e8-90cd-f2a6138ae352")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5991 134.62 0)
+			(at 165.1991 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,6 +9113,72 @@
 			(project "Acorn_1Mhz_bus_PiZero_interface"
 				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
 					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 175.26 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10318b3d-d17c-41c6-9c30-970ce250aae7")
+		(property "Reference" "TP1"
+			(at 182.118 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TxD"
+			(at 186.182 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a952151b-0c22-4431-b726-f5a417a30644")
+		)
+		(instances
+			(project ""
+				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10194,7 +10158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c48dc8c-eb06-477e-babc-5cb7e27c484e")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 237.49 138.43 0)
 			(effects
 				(font
@@ -10244,7 +10208,73 @@
 		(instances
 			(project ""
 				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
-					(reference "#PWR06")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 175.26 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e32a6fb-c085-405b-b7a5-7b34b212724b")
+		(property "Reference" "TP4"
+			(at 182.118 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ID_SD"
+			(at 186.436 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 175.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09d2cce5-cb25-46f9-95ce-a9aad10b6523")
+		)
+		(instances
+			(project "Acorn_1Mhz_bus_PiZero_interface"
+				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10492,6 +10522,72 @@
 			(project ""
 				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 175.26 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57e48cd3-bc7a-4779-85cb-2f6e23b74daf")
+		(property "Reference" "TP3"
+			(at 182.118 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ID_SC"
+			(at 186.436 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48b9fe16-e7a9-4f16-9679-14b9f01d150e")
+		)
+		(instances
+			(project "Acorn_1Mhz_bus_PiZero_interface"
+				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10990,6 +11086,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 175.26 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e95bbda-f9cc-4e61-80f0-e4efb151b193")
+		(property "Reference" "TP5"
+			(at 182.118 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Gnd"
+			(at 186.182 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 180.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 175.26 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8031d0cf-2f49-4c57-b64e-db376bd97990")
+		)
+		(instances
+			(project "Acorn_1Mhz_bus_PiZero_interface"
+				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WT")
 		(at 195.58 110.49 180)
 		(unit 1)
@@ -11405,7 +11567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95209235-cf7f-4498-8de5-e5d278e8b466")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 237.49 148.59 0)
 			(effects
 				(font
@@ -11455,7 +11617,7 @@
 		(instances
 			(project "Acorn_1Mhz_bus_PiZero_interface"
 				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11556,7 +11718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7d8bb47-4552-459d-b29a-46d5b9ea4040")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR06"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -11606,7 +11768,7 @@
 		(instances
 			(project ""
 				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12146,7 +12308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5992a59-0acb-41a2-8120-691ecb25abe3")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 252.73 78.74 0)
 			(effects
 				(font
@@ -12196,7 +12358,7 @@
 		(instances
 			(project "Acorn_1Mhz_bus_PiZero_interface"
 				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12707,87 +12869,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 205.74 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edc04b6b-8920-451d-831c-ab3959aa7233")
-		(property "Reference" "J3"
-			(at 208.28 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Dev (NF)"
-			(at 208.28 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
-			(at 205.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 205.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "317049f0-9684-4a05-813d-73245ef9f7ae")
-		)
-		(pin "4"
-			(uuid "a3c61012-1719-4eab-9f9d-e2b927dbd47b")
-		)
-		(pin "3"
-			(uuid "c79ea405-ee48-4f0a-b0d8-9c2b0c6718ba")
-		)
-		(pin "2"
-			(uuid "a31bc90f-637f-46d2-a510-ca93d551e06c")
-		)
-		(pin "5"
-			(uuid "5155af31-5525-4c3a-8d8a-605cddbd60d4")
-		)
-		(instances
-			(project ""
-				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 198.12 147.32 0)
+		(at 172.72 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12796,7 +12879,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1af648e-6854-464b-8118-309eea6161d2")
 		(property "Reference" "#PWR05"
-			(at 198.12 153.67 0)
+			(at 172.72 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12805,7 +12888,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 152.4 0)
+			(at 172.72 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12813,7 +12896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 147.32 0)
+			(at 172.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12822,7 +12905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 147.32 0)
+			(at 172.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12831,7 +12914,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 147.32 0)
+			(at 172.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12946,7 +13029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3b7eaec-49be-4aab-829f-86f6e9b993d6")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 247.65 139.7001 0)
 			(effects
 				(font
@@ -13000,7 +13083,73 @@
 		(instances
 			(project ""
 				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
-					(reference "J4")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 175.26 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f473253f-c2cc-48ba-947c-f62d0f4ec6ae")
+		(property "Reference" "TP2"
+			(at 182.118 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RxD"
+			(at 186.182 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd1a5664-01dd-40be-a30c-996271f3bf24")
+		)
+		(instances
+			(project "Acorn_1Mhz_bus_PiZero_interface"
+				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
