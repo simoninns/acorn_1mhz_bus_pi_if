@@ -9123,7 +9123,7 @@
 		(at 175.26 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "10318b3d-d17c-41c6-9c30-970ce250aae7")
@@ -10219,7 +10219,7 @@
 		(at 175.26 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4e32a6fb-c085-405b-b7a5-7b34b212724b")
@@ -10532,7 +10532,7 @@
 		(at 175.26 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "57e48cd3-bc7a-4779-85cb-2f6e23b74daf")
@@ -11090,7 +11090,7 @@
 		(at 175.26 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6e95bbda-f9cc-4e61-80f0-e4efb151b193")
@@ -11996,7 +11996,7 @@
 		(at 237.49 39.37 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13021,8 +13021,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 245.11 139.7 0)
-		(mirror x)
+		(at 245.11 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13030,7 +13029,7 @@
 		(dnp no)
 		(uuid "f3b7eaec-49be-4aab-829f-86f6e9b993d6")
 		(property "Reference" "J3"
-			(at 247.65 139.7001 0)
+			(at 247.65 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13039,7 +13038,7 @@
 			)
 		)
 		(property "Value" "Power In"
-			(at 247.65 137.1601 0)
+			(at 247.65 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13048,7 +13047,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-			(at 245.11 139.7 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13057,7 +13056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 139.7 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13066,7 +13065,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 245.11 139.7 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13094,7 +13093,7 @@
 		(at 175.26 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f473253f-c2cc-48ba-947c-f62d0f4ec6ae")
