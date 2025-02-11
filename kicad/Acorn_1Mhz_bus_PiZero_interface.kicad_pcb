@@ -2406,13 +2406,13 @@
 				)
 			)
 		)
-		(property "Value" "ID_SD"
-			(at -0.25 2 0)
+		(property "Value" "IDSD"
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "50121530-5444-41d1-8539-7eb5f5389917")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 			)
@@ -3182,7 +3182,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 2.75 0 360)
+			(at 2.75 0 0)
 			(layer "F.SilkS")
 			(uuid "256fbf70-6d05-456e-a699-ed73cc944f14")
 			(effects
@@ -3193,7 +3193,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "a3aa95ee-8d22-4420-8671-b758f707f53e")
 			(effects
@@ -3348,7 +3348,7 @@
 			(uuid "9295c4dc-8501-4b02-ae41-c7516812855d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4f1b5b8b-959b-41b2-b814-6190e8ceab45")
 			(effects
@@ -8843,7 +8843,7 @@
 			(uuid "6eb70e2c-780b-4f26-888b-e5165a23ebd1")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 			)
@@ -9000,7 +9000,7 @@
 		(descr "Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x20 2.54mm double row")
 		(property "Reference" "J1"
-			(at 2.5 45.32 360)
+			(at 2.5 45.32 0)
 			(layer "F.SilkS")
 			(uuid "7ee57efa-cc2c-4453-b59b-7e6280964efd")
 			(effects
@@ -9235,7 +9235,7 @@
 			(uuid "e6da95a7-53d0-447b-ae28-a223564a0183")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.27 24.13 360)
+			(at -1.27 24.13 0)
 			(layer "F.Fab")
 			(uuid "22a044d5-0be6-4d4d-8552-945161c13665")
 			(effects
@@ -10033,7 +10033,7 @@
 			(uuid "1b93c74e-04fa-4e72-b727-b44b5cb9c96c")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 			)
@@ -11305,13 +11305,13 @@
 				)
 			)
 		)
-		(property "Value" "ID_SC"
-			(at 0.25 2 0)
+		(property "Value" "IDSC"
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "8613653c-7107-4cf1-b1e6-9c1e4398a381")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 			)
@@ -12064,7 +12064,7 @@
 			(uuid "65d11e2b-36b3-49c6-9e62-39f9b0cdef69")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 			)
@@ -14968,96 +14968,6 @@
 		)
 	)
 	(gr_line
-		(start 121 112)
-		(end 126.5 112)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "0a7984a9-7242-460a-964f-aea0d99d05ed")
-	)
-	(gr_line
-		(start 65 85)
-		(end 66.5 85)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "1fdabe4a-5595-42a3-bd2e-bd9ba81cbf8a")
-	)
-	(gr_line
-		(start 69 112)
-		(end 70.5 112)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "243bb287-8dca-48e5-959d-b6a538e04834")
-	)
-	(gr_line
-		(start 126.5 112)
-		(end 126.5 91.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "279689cc-a107-4bb7-a654-5bb63269b2dc")
-	)
-	(gr_line
-		(start 69 85)
-		(end 69 112)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "4f40f77f-a190-43e6-b3b6-d62a2bb828d9")
-	)
-	(gr_line
-		(start 65 120.5)
-		(end 67 120.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "5068ac61-fdfe-43de-a62b-ec95959e40a5")
-	)
-	(gr_line
-		(start 65 85)
-		(end 65 120.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "7ea3b8ec-a578-4567-9708-7f43af0e9c78")
-	)
-	(gr_line
-		(start 126.5 91.5)
-		(end 123.5 91.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "c97f1c82-375f-4e80-93ff-289ff4b7821a")
-	)
-	(gr_line
-		(start 69 85)
-		(end 70.5 85)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "e1aa74e3-96bb-4a5a-9126-a659ad1e8b84")
-	)
-	(gr_line
 		(start 123 85)
 		(end 71 85)
 		(stroke
@@ -15239,42 +15149,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "35.5mm"
-		(at 64.5 105 90)
-		(layer "Cmts.User")
-		(uuid "315229cd-914c-402c-a989-0f7a47619b71")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "20.5mm"
-		(at 127 99 -90)
-		(layer "Cmts.User")
-		(uuid "72f7049d-1f2f-48d4-8438-114d027e0407")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "27.0mm"
-		(at 68.5 102 90)
-		(layer "Cmts.User")
-		(uuid "ef1895e4-e78b-418b-8f60-3a76ba1bec04")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
