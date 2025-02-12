@@ -4024,7 +4024,7 @@
 				)
 			)
 		)
-		(symbol "power:+2V5"
+		(symbol "power:+3.3VDAC"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -4033,7 +4033,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 3.81 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4041,7 +4041,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+2V5"
+			(property "Value" "+3.3VDAC"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -4067,7 +4067,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3VDAC\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4085,7 +4085,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "+2V5_0_1"
+			(symbol "+3.3VDAC_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "+3.3VDAC_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -4120,26 +4140,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "+2V5_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -8273,7 +8273,7 @@
 		)
 		(uuid "44606252-f157-4fc5-981e-03a56de60ba4")
 	)
-	(text "2V5 Audio Reference"
+	(text "3V3 Audio Reference"
 		(exclude_from_sim no)
 		(at 39.116 87.376 0)
 		(effects
@@ -11052,6 +11052,72 @@
 				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
 					(reference "D5")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VDAC")
+		(at 59.69 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a7dacb4-4ce5-495e-baf4-5195b900a746")
+		(property "Reference" "#PWR05"
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VDAC"
+			(at 59.69 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VDAC\""
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1299d71-c6fc-45d4-a7e6-d83f165b2531")
+		)
+		(instances
+			(project "Acorn_1Mhz_bus_PiZero_interface"
+				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
+					(reference "#PWR05")
+					(unit 1)
 				)
 			)
 		)
@@ -13934,72 +14000,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 50.8 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9e2ea36-696c-44cb-a0fd-d5b2dbc84a59")
-		(property "Reference" "#PWR04"
-			(at 50.8 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 50.8 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 50.8 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc0547e3-e3fd-47f3-9b13-28db08d40141")
-		)
-		(instances
-			(project ""
-				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:MMBD4148TW")
 		(at 224.79 38.1 180)
 		(unit 3)
@@ -15313,17 +15313,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 59.69 34.29 0)
+		(lib_id "power:+3.3VDAC")
+		(at 50.8 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e229bb8c-72c2-4a38-8532-65a0c0c65e4d")
-		(property "Reference" "#PWR05"
-			(at 59.69 38.1 0)
+		(uuid "e501d7e5-b52b-4514-950c-33be4b26d817")
+		(property "Reference" "#PWR04"
+			(at 54.61 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15331,8 +15331,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
-			(at 59.69 29.21 0)
+		(property "Value" "+3.3VDAC"
+			(at 50.8 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15340,7 +15340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 34.29 0)
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15349,7 +15349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 34.29 0)
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15357,8 +15357,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 59.69 34.29 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VDAC\""
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15367,12 +15367,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdf9e902-8325-42d2-8736-a8b345d923c4")
+			(uuid "81f0c656-7fc0-4370-9ac5-d6e84d4fdc8e")
 		)
 		(instances
-			(project "Acorn_1Mhz_bus_PiZero_interface"
+			(project ""
 				(path "/a0d2a9c9-3cdc-4840-a525-cd9010c2a2e6"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -15396,7 +15396,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206P252MR"
+		(property "Value" "XC6206P332MR"
 			(at 40.64 95.25 0)
 			(effects
 				(font
