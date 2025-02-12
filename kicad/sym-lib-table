@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Connector-ML")(type "Legacy")(uri "/home/sdi/github/acorn_1mhz_bus_pi_if/libs/RPi_Zero_pHat_Template/symbols/Connector-ML.lib")(options "")(descr ""))
   (lib (name "project")(type "KiCad")(uri "${KIPRJMOD}/project.kicad_sym")(options "")(descr ""))
 )
